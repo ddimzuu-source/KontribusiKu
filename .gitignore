@@ -1,0 +1,34 @@
+
+# Konfigurasi lokal dan rahasia
+.env
+.env.*
+!.env.example
+config/database.local.php
+
+# File sistem operasi
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor dan IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# File sementara dan log
+*.log
+tmp/
+temp/
+
+# Hasil pengujian dan cache
+.phpunit.cache/
+coverage/
+
+# File upload pengguna
+storage/submissions/*
+!storage/submissions/.gitkeep
+
+# Backup database dan file SQL lokal
+*.sql.bak
+*.dump
