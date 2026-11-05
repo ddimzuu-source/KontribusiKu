@@ -74,3 +74,44 @@ footer {
         padding: 24px 20px;
     }
 }
+
+/* ---------- Dashboard ---------- */
+.stat-card {
+    height: 100%;
+    padding: 20px;
+    background: var(--kk-surface);
+    border: 1px solid var(--kk-border);
+    border-radius: 16px;
+}
+
+.stat-label {
+    color: var(--kk-muted);
+    font-size: 0.9rem;
+    margin-bottom: 4px;
+}
+
+.stat-value {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.panel {
+    height: 100%;
+    background: var(--kk-surface);
+    border: 1px solid var(--kk-border);
+    border-radius: 16px;
+    padding: 24px;
+}
+
+.activity-item {
+    padding: 12px 0;
+    border-bottom: 1px solid var(--kk-border);
+}
+
+.activity-item:last-child {
+    border-bottom: 0;
+    padding-bottom: 0;
+}
+
