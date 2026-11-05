@@ -1,0 +1,76 @@
+/* assets/css/style.css */
+
+:root {
+    --kk-primary: #2563eb;
+    --kk-bg: #f8fafc;
+    --kk-text: #1e293b;
+    --kk-muted: #64748b;
+    --kk-border: #e2e8f0;
+    --kk-surface: #ffffff;
+}
+
+/* ---------- Dasar ---------- */
+body {
+    background-color: var(--kk-bg);
+    color: var(--kk-text);
+    font-family: Arial, sans-serif;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: var(--kk-primary);
+}
+
+footer {
+    border-top: 1px solid var(--kk-border);
+}
+
+/* ---------- Landing page ---------- */
+.hero {
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: clamp(2.2rem, 5vw, 3.5rem);
+    font-weight: 700;
+}
+
+.hero p {
+    color: var(--kk-muted);
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.feature-card {
+    height: 100%;
+    padding: 25px;
+    background: var(--kk-surface);
+    border: 1px solid var(--kk-border);
+    border-radius: 16px;
+}
+
+.feature-icon {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+/* ---------- Halaman auth (login & register) ---------- */
+.auth-wrapper {
+    min-height: calc(100vh - 150px);
+    display: flex;
+    align-items: center;
+    padding: 48px 0;
+}
+
+.auth-card {
+    background: var(--kk-surface);
+    border: 1px solid var(--kk-border);
+    border-radius: 16px;
+    padding: 32px;
+}
+
+@media (max-width: 575.98px) {
+    .auth-card {
+        padding: 24px 20px;
+    }
+}
