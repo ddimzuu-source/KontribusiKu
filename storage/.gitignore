@@ -1,0 +1,3 @@
+# berkas unggahan jangan masuk repo
+storage/submissions/*
+!storage/submissions/.htaccess
